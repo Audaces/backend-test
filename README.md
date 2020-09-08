@@ -7,8 +7,7 @@ A API recebe uma sequência de pontuações possíveis e um número alvo.
 Por exemplo: [1, 2, 5, 20] e 47.  
 
 A API deverá então checar se é possível atingir o número alvo com uma combinação das pontuações e, se possível, retornar essa combinação.  
-No nosso exemplo, a API poderia retornar: [2, 5, 20, 20]
-
+No nosso exemplo, a API poderia retornar: [2, 5, 20, 20]  
 Além disso, chamadas para a API devem ser gravadas em um banco de dados que deverá ser usado como cache. 
 
 ### Requisitos mínimos: 
