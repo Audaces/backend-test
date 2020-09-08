@@ -2,16 +2,19 @@
 Teste para a vaga de Backend Developer na Audaces.
 
 ### Sobre o desafio:
-Seu desafio será a criação de uma aplicação para gerenciar as movimentações financeiras de uma família. O software deverá ser escrito com C# e consultar um banco de dados (disponibilizado nesse repo) e expôr uma API em GraphQL. 
+Você deverá desenvolver uma API com C# e, preferencialmente, GraphQL. 
+A API recebe uma sequência de pontuações possíveis e um número alvo.
+Por exemplo: [1, 2, 5, 20] e 47.
+A API deverá então checar se é possível atingir o número alvo com uma combinação das pontuações e, se possível, retornar essa combinação.
+No nosso exemplo, a API poderia retornar: [2, 5, 20, 20]
+
+Além disso, chamadas para a API devem ser gravadas em um banco de dados que deverá ser usado como cache. 
 
 ### Requisitos mínimos: 
 
-* Deverá haver um CRUD de movimentações, acessível pela API; 
+* Um endpoint que recebe as pontuações e o número alvo, retornando uma combinação possível;
 
-* Um CRUD também deverá existir para usuários. Sempre que um usuário é deletado, seus gastos são transferidos para o usuário com o menor ID. Caso não haja nenhum outro usuário, a deleção é proibida; 
-
-* Deverá haver uma query que receba duas datas e retorne o saldo deste período. 
-
+* Um endpoint que receba duas datas e retorne todos as consultas na API naquele período;
  
 
 ### Extras: 
@@ -24,6 +27,6 @@ Seu desafio será a criação de uma aplicação para gerenciar as movimentaçõ
 
  
 
-Não se preocupe com uma interface para o usuário, a ideia é que a API seja consumida por outro aplicativo. Sinta-se à vontade para comentar qualquer decisão de projeto tomada durante o desafio. 
+Não se preocupe com uma interface para o usuário, a ideia é consultar a API diretamente pela linha de comando. Sinta-se à vontade para comentar qualquer decisão de projeto tomada durante o desafio. 
 
 Qualquer dúvida, estamos à disposição. Lembre-se que quanto antes o desafio for terminado, mais cedo poderemos continuar com o processo. 
