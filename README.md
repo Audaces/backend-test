@@ -2,7 +2,7 @@
 Teste para a vaga de Backend Developer na Audaces.
 
 ### Sobre o desafio:
-Você deverá desenvolver uma API com C# e, preferencialmente, GraphQL. 
+Você deverá desenvolver uma API com C#/.net Core e, preferencialmente, GraphQL. 
 A API recebe uma lista de números, chamada de Sequence, e um número alvo, chamado de Target.  
 Por exemplo: 
 ```
@@ -27,6 +27,7 @@ Além disso, chamadas para a API devem ser gravadas.
  
 
 ### Extras: 
+* Readme
 
 * Testes, sejam unitários ou de comportamento; 
 
